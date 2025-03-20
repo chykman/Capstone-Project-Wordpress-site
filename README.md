@@ -132,6 +132,33 @@ The goal of this project is to deploy a **highly available and scalable WordPres
       ![image](https://github.com/user-attachments/assets/569abd60-27da-40be-8129-3e084bae87c7)
 
 
+      ## 5. AWS RDS
+    ### 5.1. Creating the database
+
+    - Navigate to the search bar and enter RDS and click on it
+      ![image](https://github.com/user-attachments/assets/c9046a42-06b2-4347-bffc-664000eb2379)
+
+      - Go to DB Instances
+        ![image](https://github.com/user-attachments/assets/eafd902e-0ea9-44a7-8b64-5a183e180141)
+
+        - Click on Create DB
+       ![image](https://github.com/user-attachments/assets/860b7cdf-e335-4374-a1e8-44bb71edecf4)
+
+    - Select the Standard create for the databse and mysql for the db engine type
+      ![image](https://github.com/user-attachments/assets/2402dc16-67ff-4fe7-957c-bd958d999b24)
+
+      - For the engine version we will use the 8.0.35 and the free tier template
+        ![image](https://github.com/user-attachments/assets/496bdc93-7eda-4c7f-b1ab-9a95508e034c)
+
+        - next
+
+
+
+
+
+
+
+
 
 
 
