@@ -142,6 +142,56 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 
 ---
+ # SECURITY GROUPS
+
+ - Navigate to the EC2 and click on security group ad create security group
+![image](https://github.com/user-attachments/assets/a481d2cc-d856-4791-b046-56bee7bff2a0)
+
+- Craete A Secuurity group for each resource
+- ALB Security group
+- The Load balancer security group, inound allows http and https protocols
+ ![image](https://github.com/user-attachments/assets/01c50507-9c97-45df-9d91-207037b404f0)
+
+- And for the Outbound rule
+- ![image](https://github.com/user-attachments/assets/39529be2-d1c4-4355-ba30-07e5e28c0042)
+
+- SSH Security group
+  - For the inbound it only allows my ip too ssh
+    ![image](https://github.com/user-attachments/assets/f8ce2055-a523-450a-9b62-a21b7ffbb6b6)
+
+    - Web server security group
+    - 
+      ![image](https://github.com/user-attachments/assets/fb1ce1cd-17de-4535-81b6-99fd1e44e4a6)
+
+      - It allows ALB security group on the HTTP and HTTPS protocol and SSH security group on the SSH protocol on the inbound rule
+      ![image](https://github.com/user-attachments/assets/b030b595-f4e0-4f36-b7a8-35438e54a947)
+
+- For the outbound rule
+  ![image](https://github.com/user-attachments/assets/3bc41218-ce3a-4965-a203-8baeb963c65d)
+
+- Database Security group
+- Inbound rules and outbound rules
+  ![image](https://github.com/user-attachments/assets/daff1288-b15a-4442-971b-6c47887d4f38)
+
+  - EFS Security group
+   - Inbound Rules
+    ![image](https://github.com/user-attachments/assets/b8d6c9e7-d163-423f-b7bc-359a4c74c23b)
+
+- All groups have been created
+  ![image](https://github.com/user-attachments/assets/c2d86342-c864-47ea-acfc-4072518bcb15)
+
+    
+  
+
+  
+
+
+
+
+  
+
+
+---
 
 
   ## 4.6. AWS Mysql RDS 
@@ -155,6 +205,19 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
         - Select Standard create and select mysql Engine option
           ![image](https://github.com/user-attachments/assets/7a1cc348-b932-498f-b9d9-70551d76f3dc)
+  - Set your master password
+    ![image](https://github.com/user-attachments/assets/97549fd4-8e1e-4940-a3da-a51a76b40106)
+
+    - Set your Connectivity settings
+      ![image](https://github.com/user-attachments/assets/ee2d42de-6063-4b18-b427-93cac9d8eb26)
+
+
+      - Select your existing VPC security group
+        ![image](https://github.com/user-attachments/assets/020d218b-7236-4d52-ac39-00577f6fbffe)
+
+ - Click on Create database
+   ![image](https://github.com/user-attachments/assets/b8a1f4b2-ca8b-4d11-93ad-8193de5f82f0)
+
 
           -
 
