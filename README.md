@@ -179,16 +179,7 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 - All groups have been created
   ![image](https://github.com/user-attachments/assets/c2d86342-c864-47ea-acfc-4072518bcb15)
-
-    
-  
-
-  
-
-
-
-
-  
+ 
 
 
 ---
@@ -218,43 +209,13 @@ The goal of this project is to deploy a **highly available and scalable WordPres
  - Click on Create database
    ![image](https://github.com/user-attachments/assets/b8a1f4b2-ca8b-4d11-93ad-8193de5f82f0)
 
+   - Our Database is being created
+     ![image](https://github.com/user-attachments/assets/eb47acdf-e9ea-43fe-8053-783449af458d)
 
-          -
-
-         
-
-
-
+    - DB has been successfully created
+     ![image](https://github.com/user-attachments/assets/c3797c89-72d2-4fdd-bd97-6293401ac4c7)
 
 
-
-
- 
-    
-
-
--
-
-
-      ## 5. AWS RDS
-    ### 5.1. Creating the database
-
-    - Navigate to the search bar and enter RDS and click on it
-      ![image](https://github.com/user-attachments/assets/c9046a42-06b2-4347-bffc-664000eb2379)
-
-      - Go to DB Instances
-        ![image](https://github.com/user-attachments/assets/eafd902e-0ea9-44a7-8b64-5a183e180141)
-
-        - Click on Create DB
-       ![image](https://github.com/user-attachments/assets/860b7cdf-e335-4374-a1e8-44bb71edecf4)
-
-    - Select the Standard create for the databse and mysql for the db engine type
-      ![image](https://github.com/user-attachments/assets/2402dc16-67ff-4fe7-957c-bd958d999b24)
-
-      - For the engine version we will use the 8.0.35 and the free tier template
-        ![image](https://github.com/user-attachments/assets/496bdc93-7eda-4c7f-b1ab-9a95508e034c)
-
-        - next
 
 
 
