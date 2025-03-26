@@ -143,7 +143,24 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 ---
 
-  
+
+  ## 4.6. AWS Mysql RDS 
+
+  - Navigate to the Search bar and type RDS
+    ![image](https://github.com/user-attachments/assets/9f2a602c-861f-4c5a-a75f-0bf42417c1bc)
+    - Select database module by the sidebar
+      ![image](https://github.com/user-attachments/assets/8ad568a8-5fdf-41c4-a09f-1d12f90d76ff)
+      - Click on Create database
+        ![image](https://github.com/user-attachments/assets/91b897ec-4e51-46f5-b126-90127abe13c9)
+
+        - Select Standard create and select mysql Engine option
+          ![image](https://github.com/user-attachments/assets/7a1cc348-b932-498f-b9d9-70551d76f3dc)
+
+          -
+
+         
+
+
 
 
 
