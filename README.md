@@ -89,27 +89,57 @@ The goal of this project is to deploy a **highly available and scalable WordPres
         - It is successfully attached to ur vpc
           ![image](https://github.com/user-attachments/assets/13586663-1f4c-493f-b0c7-aaaf5b103a5b)
 
+          
 
-
-
-
-
-
-
-
-
-
-
-
-
-## 4.4.  
+## 4.4.  ROUTE TABLE
     - Navigate to the Route tables and click on create route table
    ![image](https://github.com/user-attachments/assets/45a15ee2-859a-40ba-9c6d-67621d7aa021)
    
   - Enter the required information and click on create 
-![image](https://github.com/user-attachments/assets/18c52949-edef-4fe0-88ab-1cb2b8dc2e61)
+![image](https://github.com/user-attachments/assets/4e8177ec-9039-4708-a707-8e9e04e076ca)
 
-- Edit 
+- Route table has been created
+  ![image](https://github.com/user-attachments/assets/0d743abb-a253-4997-bbfe-9e6785e38966)
+
+- Go to Actions module and click on Edit subnet associations
+  ![image](https://github.com/user-attachments/assets/06fc4890-6c21-45b2-8e46-286d71aa7a0e)
+
+  - Select your two public associations and click on Save associations
+    ![image](https://github.com/user-attachments/assets/f63a2875-860d-4f50-93f9-2c6170a31987)
+
+    - Navigate to edit routes and add internet gateway route and save changes
+          -  
+![image](https://github.com/user-attachments/assets/86875852-a344-4e8b-a6a9-e675fbdf1836)
+
+- For the public route go to your private subnet select the first one go to the route table section
+  ![image](https://github.com/user-attachments/assets/666d21a2-d066-4ffe-a877-2d1db2d501c2)
+
+  - Click on  route
+   ![image](https://github.com/user-attachments/assets/8c694650-8623-486e-88ff-c0254ab1accc)
+
+- Add natgateway route and save changes
+  ![image](https://github.com/user-attachments/assets/559b0d32-4b02-48b0-9b3d-5cb62eee2e79)
+
+  - This change will also apply to the second private subnet
+
+
+## 4.5. NAT Gateway
+
+- Navigate to the Elastic ip module and Create your Elastic ip for your Nat gateway
+  ![image](https://github.com/user-attachments/assets/b351cedb-071b-4a10-a13a-56af0bee07c9)
+  - ![image](https://github.com/user-attachments/assets/8d633eaf-5f86-4596-a58f-9d2718e81768)
+
+
+- Navigate to the Nat Gateway module and click and Create Nat gateway
+  ![image](https://github.com/user-attachments/assets/e3c3b5ef-4990-4e24-9d8a-d5d24fd3e7a7)
+
+- Enter the details and create your Nat gateway
+  ![image](https://github.com/user-attachments/assets/7bae9d0f-c7dd-4c2f-b3b1-2c0e33a2bd39)
+
+  - Create another one for the second private subnet
+    ![image](https://github.com/user-attachments/assets/91fc9c83-5412-4dc1-90fa-c077e058585b)
+    - ![image](https://github.com/user-attachments/assets/d626d318-429e-4053-9c10-6324acdfdd29)
+
 
 ---
 
