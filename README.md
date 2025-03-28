@@ -142,7 +142,7 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 
 ---
- # SECURITY GROUPS
+## 4.6. SECURITY GROUPS
 
  - Navigate to the EC2 and click on security group ad create security group
 ![image](https://github.com/user-attachments/assets/a481d2cc-d856-4791-b046-56bee7bff2a0)
@@ -185,7 +185,7 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 ---
 
 
-  ## 4.6. AWS Mysql RDS 
+  ## 4.7. AWS Mysql RDS 
 
   - Navigate to the Search bar and type RDS
     ![image](https://github.com/user-attachments/assets/9f2a602c-861f-4c5a-a75f-0bf42417c1bc)
@@ -214,6 +214,36 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
     - DB has been successfully created
      ![image](https://github.com/user-attachments/assets/c3797c89-72d2-4fdd-bd97-6293401ac4c7)
+
+- Ensure the db subnet group is created on only private subnet
+    ![image](https://github.com/user-attachments/assets/7080ce4c-ad12-4f6a-8fa6-5cfd09821f77)
+
+
+## EC2 INSTANCES 
+
+- Navigate to your  ec2 and click on Launch instance
+  ![image](https://github.com/user-attachments/assets/7a29b584-00e6-40b3-84b2-a14b4f6b7a68)
+
+  - Ensure you select your created vpc and private subnet in your network settings
+    ![image](https://github.com/user-attachments/assets/5f8ee2fc-5e5c-43f6-a09a-4319fa1cffbb)
+
+    - Launch your instance
+      ![image](https://github.com/user-attachments/assets/8e6fb875-a5aa-461c-994f-6702753ec72f)
+
+      - You won't be able to reach the instance due to it being on a private subnet
+        ![image](https://github.com/user-attachments/assets/a98b954d-cf6d-49a5-b825-ae3532040837)
+
+        - We will need to create a bastion host, go to the ec2 module and launch instance
+          ![image](https://github.com/user-attachments/assets/bdc8013d-487b-465f-9801-1f699ed34c28)
+
+          - Maintain the same configuration but modify the subnet to the private one
+            ![image](https://github.com/user-attachments/assets/66cbf5dd-53d0-4cc7-b38d-df6a424cc14b)
+
+          
+
+
+
+
 
 
 
