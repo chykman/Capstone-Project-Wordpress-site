@@ -257,6 +257,97 @@ The goal of this project is to deploy a **highly available and scalable WordPres
                    ![image](https://github.com/user-attachments/assets/d4bee349-c0b7-4293-9346-d0e2cfee0e06)
 
 
+            - Install php runtime and php mysql connector
+              ![image](https://github.com/user-attachments/assets/6b247ddd-eb7f-4765-875f-0ce378bfc602)
+
+              - Install MySQL server
+                ![image](https://github.com/user-attachments/assets/a12dec41-9640-42bf-bfbf-10eb73f55ecf)
+
+                - Login to MySQL server
+                  ![image](https://github.com/user-attachments/assets/cdcc2205-9f2b-4f97-a9d1-496d64f83bb8)
+
+                - Change authentication plugin to mysql_native_password
+                  ![image](https://github.com/user-attachments/assets/38fc454e-75da-4491-9946-f60b187371fc)
+
+                  - Create a new database admin user for wordpress
+                    ![image](https://github.com/user-attachments/assets/1b77d66e-6057-4e39-9fe8-6336a7604435)
+
+                    - CREATE DATABASE Word press db and grant all privileges to user admin user
+                      ![image](https://github.com/user-attachments/assets/eefed3dc-b1f0-407c-b9d7-55bda1ef9b20)
+
+                      - We can now login with our Admin user
+                        ![image](https://github.com/user-attachments/assets/ec4629b4-5725-4a8b-bec6-819f096c7295)
+
+  - wE will now download wordpress, Navigate to your temp folder on the private instance
+    ![image](https://github.com/user-attachments/assets/fec16730-89fe-4ab8-b492-e50b9d17ec9b)
+
+    - Download wordpress on it
+      ![image](https://github.com/user-attachments/assets/05bdfb0e-f671-4df9-a69b-84e87ac2d3fe)
+
+- ![image](https://github.com/user-attachments/assets/9bf51611-f12b-42e3-8f48-c41c1f75e112)
+
+      - Extract it
+     ![image](https://github.com/user-attachments/assets/81dceeb1-98c5-4d8a-9886-e8bc72488316)
+
+- Move the extracted folder to var/html/www folder
+  ![image](https://github.com/user-attachments/assets/2a90cecf-8873-4353-8a73-f6c4519fff22)
+
+  - Enable your apache server then restart
+    ![image](https://github.com/user-attachments/assets/a4be5cce-ce0c-4c0d-90da-948530283325)
+
+## EFS 
+
+- Navigate to the search bar and enter EFS
+  ![image](https://github.com/user-attachments/assets/e7e262fd-3df4-4cb1-9cd8-42a4f071ffc3)
+
+  - Click on Create filesystem
+    ![image](https://github.com/user-attachments/assets/2ccb50e7-843e-4fbe-89a7-b133bb4f6c1b)
+
+    - Provide name 
+     ![image](https://github.com/user-attachments/assets/34f0c7f5-1510-437e-b95b-bf9a9e051297)
+
+      - Select the vpc and security groups
+        ![image](https://github.com/user-attachments/assets/36c4d7e0-ffa8-42d5-ab7c-44547ee4228d)
+
+        - Leave rest as default and clcik on create
+          ![image](https://github.com/user-attachments/assets/0f1a8581-271f-4b75-93ee-4b2f806089d5)
+
+          - Filesystem has been created
+            ![image](https://github.com/user-attachments/assets/2f7f1850-99b0-4f0f-a12b-aaf8aed281a0)
+
+
+            ## Load balancers
+
+            - Navigate to the Load Balancers module and click on Create aLoad balancer
+            ![image](https://github.com/user-attachments/assets/c1e69a0c-02e3-44f2-a104-70ea2a653c90)
+ - Click on Application Load balancer
+   ![image](https://github.com/user-attachments/assets/2ce23373-bc61-4aa9-bf64-208de2ac1b68)
+
+   - 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+                  
+
+ 
+
+
 
 
                 
