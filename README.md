@@ -239,6 +239,28 @@ The goal of this project is to deploy a **highly available and scalable WordPres
           - Maintain the same configuration but modify the subnet to the private one
             ![image](https://github.com/user-attachments/assets/66cbf5dd-53d0-4cc7-b38d-df6a424cc14b)
 
+            - We will ssh into the  private subnet instance through the bastion by running the command below
+              "ssh -i wpkey.pem -J ubuntu@13.216.22.19 ubuntu@10.0.9.153"
+
+              ![image](https://github.com/user-attachments/assets/5f44969b-176a-4a8d-8e00-7906deb9588a)
+
+
+              ## Wordpress
+
+              - Now to install Wordpress on our private ec2 instance, ssh to the private instance
+                ![image](https://github.com/user-attachments/assets/866f3929-08dd-4256-8807-96918389691e)
+
+                - Update all dependies
+                  ![image](https://github.com/user-attachments/assets/642dc63e-b83b-4a17-b4ad-7d66edf15911)
+
+                  - Install apache web server
+                    ![image](https://github.com/user-attachments/assets/427202bf-4a01-45e9-9e81-65735d0d3e43)
+
+
+
+                
+
+
           
 
 
