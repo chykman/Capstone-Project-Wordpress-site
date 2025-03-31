@@ -254,7 +254,8 @@ The goal of this project is to deploy a **highly available and scalable WordPres
                   ![image](https://github.com/user-attachments/assets/642dc63e-b83b-4a17-b4ad-7d66edf15911)
 
                   - Install apache web server
-                    ![image](https://github.com/user-attachments/assets/427202bf-4a01-45e9-9e81-65735d0d3e43)
+                   ![image](https://github.com/user-attachments/assets/d4bee349-c0b7-4293-9346-d0e2cfee0e06)
+
 
 
 
