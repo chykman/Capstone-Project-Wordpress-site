@@ -230,53 +230,44 @@ The goal of this project is to deploy a **highly available and scalable WordPres
     - Launch your instance
       ![image](https://github.com/user-attachments/assets/8e6fb875-a5aa-461c-994f-6702753ec72f)
 
-      - You won't be able to reach the instance due to it being on a private subnet
-        ![image](https://github.com/user-attachments/assets/a98b954d-cf6d-49a5-b825-ae3532040837)
+      
 
-        - We will need to create a bastion host, go to the ec2 module and launch instance
-          ![image](https://github.com/user-attachments/assets/bdc8013d-487b-465f-9801-1f699ed34c28)
+            - We will ssh into the  instancerunning the command below
+              "ssh -i wpkey.pem ubuntu@13.216.22.19
 
-          - Maintain the same configuration but modify the subnet to the private one
-            ![image](https://github.com/user-attachments/assets/66cbf5dd-53d0-4cc7-b38d-df6a424cc14b)
-
-            - We will ssh into the  private subnet instance through the bastion by running the command below
-              "ssh -i wpkey.pem -J ubuntu@13.216.22.19 ubuntu@10.0.9.153"
-
-              ![image](https://github.com/user-attachments/assets/5f44969b-176a-4a8d-8e00-7906deb9588a)
-
+         ![image](https://github.com/user-attachments/assets/5f44969b-176a-4a8d-8e00-7906deb9588a)
 
               ## Wordpress
 
               - Now to install Wordpress on our private ec2 instance, ssh to the private instance
-                ![image](https://github.com/user-attachments/assets/866f3929-08dd-4256-8807-96918389691e)
-
+    ![image](https://github.com/user-attachments/assets/866f3929-08dd-4256-8807-96918389691e)
                 - Update all dependies
                   ![image](https://github.com/user-attachments/assets/642dc63e-b83b-4a17-b4ad-7d66edf15911)
 
                   - Install apache web server
-                   ![image](https://github.com/user-attachments/assets/d4bee349-c0b7-4293-9346-d0e2cfee0e06)
+    ![image](https://github.com/user-attachments/assets/d4bee349-c0b7-4293-9346-d0e2cfee0e06)
 
 
             - Install php runtime and php mysql connector
-              ![image](https://github.com/user-attachments/assets/6b247ddd-eb7f-4765-875f-0ce378bfc602)
+    ![image](https://github.com/user-attachments/assets/6b247ddd-eb7f-4765-875f-0ce378bfc602)
 
               - Install MySQL server
-                ![image](https://github.com/user-attachments/assets/a12dec41-9640-42bf-bfbf-10eb73f55ecf)
+     ![image](https://github.com/user-attachments/assets/a12dec41-9640-42bf-bfbf-10eb73f55ecf)
 
                 - Login to MySQL server
-                  ![image](https://github.com/user-attachments/assets/cdcc2205-9f2b-4f97-a9d1-496d64f83bb8)
+     ![image](https://github.com/user-attachments/assets/cdcc2205-9f2b-4f97-a9d1-496d64f83bb8)
 
                 - Change authentication plugin to mysql_native_password
-                  ![image](https://github.com/user-attachments/assets/38fc454e-75da-4491-9946-f60b187371fc)
+    ![image](https://github.com/user-attachments/assets/38fc454e-75da-4491-9946-f60b187371fc)
 
                   - Create a new database admin user for wordpress
-                    ![image](https://github.com/user-attachments/assets/1b77d66e-6057-4e39-9fe8-6336a7604435)
+     ![image](https://github.com/user-attachments/assets/1b77d66e-6057-4e39-9fe8-6336a7604435)
 
                     - CREATE DATABASE Word press db and grant all privileges to user admin user
-                      ![image](https://github.com/user-attachments/assets/eefed3dc-b1f0-407c-b9d7-55bda1ef9b20)
+     ![image](https://github.com/user-attachments/assets/eefed3dc-b1f0-407c-b9d7-55bda1ef9b20)
 
                       - We can now login with our Admin user
-                        ![image](https://github.com/user-attachments/assets/ec4629b4-5725-4a8b-bec6-819f096c7295)
+     ![image](https://github.com/user-attachments/assets/ec4629b4-5725-4a8b-bec6-819f096c7295)
 
   - wE will now download wordpress, Navigate to your temp folder on the private instance
     ![image](https://github.com/user-attachments/assets/fec16730-89fe-4ab8-b492-e50b9d17ec9b)
@@ -323,7 +314,51 @@ The goal of this project is to deploy a **highly available and scalable WordPres
  - Click on Application Load balancer
    ![image](https://github.com/user-attachments/assets/2ce23373-bc61-4aa9-bf64-208de2ac1b68)
 
-   - 
+   - Ensure it is internet facing
+     ![image](https://github.com/user-attachments/assets/36e7fdd9-22d8-4c6f-927a-d7afb57bbd3b)
+
+- Select your vpc
+  ![image](https://github.com/user-attachments/assets/6d53405c-8db5-4e8e-af6c-b2be11f2ba1b)
+
+  - Select created Target group
+    ![image](https://github.com/user-attachments/assets/ade89b86-1b16-4e49-b1db-690bc2618a0e)
+
+    - Create Load balancer
+      ![image](https://github.com/user-attachments/assets/842d2f46-9252-47fa-a0ea-46f2cce738f7)
+
+      - Load balancer has been created successfully
+        ![image](https://github.com/user-attachments/assets/d7a7e8c3-6b17-49fb-b878-45281abd101e)
+
+
+        ## Auto Scaling Group
+
+        - Navigate to your search bar and enter Auto scaling and click on it
+          ![image](https://github.com/user-attachments/assets/e5dcf198-d54f-4dfc-b0df-53e4702a428d)
+       - Click on Create
+         ![image](https://github.com/user-attachments/assets/96c390f6-ddcd-43f5-8427-97628c4cbc8d)
+         - Enter the name and select your already created launch template
+           ![image](https://github.com/user-attachments/assets/7d95c1ab-328c-4980-a420-ac229986f0f6)
+           - Select your network settings
+             ![image](https://github.com/user-attachments/assets/d02407d7-2fce-4273-8a1f-97d83c09d0c9)
+
+             - Select the created Load Balancer
+               ![image](https://github.com/user-attachments/assets/ae206e48-4a83-44cb-b7e3-514d8c986059)
+
+               - Leave other settings as default and Create the Auto scaling group
+                 ![image](https://github.com/user-attachments/assets/2f1ec5fd-7587-4c13-96ae-602a03e4a0b4)
+
+                 - Auto scaling Group has been created
+                   ![image](https://github.com/user-attachments/assets/a87924b2-d30a-41e3-b937-b14dd0cb3342)
+
+
+
+
+
+
+
+
+
+    
 
 
 
