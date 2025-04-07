@@ -237,7 +237,8 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
          ![image](https://github.com/user-attachments/assets/5f44969b-176a-4a8d-8e00-7906deb9588a)
 
-              ## Wordpress
+
+       ## Wordpress
 
               - Now to install Wordpress on our private ec2 instance, ssh to the private instance
     ![image](https://github.com/user-attachments/assets/866f3929-08dd-4256-8807-96918389691e)
@@ -286,6 +287,17 @@ The goal of this project is to deploy a **highly available and scalable WordPres
   - Enable your apache server then restart
     ![image](https://github.com/user-attachments/assets/a4be5cce-ce0c-4c0d-90da-948530283325)
 
+    - Open the Wordpress site on your browser
+      ![image](https://github.com/user-attachments/assets/80e6412e-df57-4d51-a768-1e1a298c7587)
+
+      - ![image](https://github.com/user-attachments/assets/68105236-ba71-4941-bd6e-ab24f7764c8d)
+      - ![image](https://github.com/user-attachments/assets/b8598484-0b62-46b1-a629-688196709063)
+      - ![image](https://github.com/user-attachments/assets/667ebfe9-801c-4b1a-9cf6-3c4866ecc2dd)
+
+
+
+
+
 ## EFS 
 
 - Navigate to the search bar and enter EFS
@@ -305,6 +317,18 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
           - Filesystem has been created
             ![image](https://github.com/user-attachments/assets/2f7f1850-99b0-4f0f-a12b-aaf8aed281a0)
+        -  Click on View details module
+        - ![image](https://github.com/user-attachments/assets/bbc809f9-4e8b-4937-9a80-32cf19381dd5)
+        - Click on Attach
+          ![image](https://github.com/user-attachments/assets/692b07a0-8108-4810-9c06-e89ac98b3aa7)
+       
+          - Select the mount helper command
+            ![image](https://github.com/user-attachments/assets/33e59ae2-798c-47fb-a6b8-435c0b7ea8ab)
+          - SSh to your instance and run the command
+            ![image](https://github.com/user-attachments/assets/a4a677dd-f1f5-47c7-abc7-242e11318f63)
+
+
+              
 
 
             ## Load balancers
