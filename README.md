@@ -377,7 +377,9 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 
 
-
+   ## A FULLY DEPLOYED WORDPRESS SITE
+   ![image](https://github.com/user-attachments/assets/81b8298c-a2ad-4e21-9ed2-ac44402256cd)
+ 
 
 
 
