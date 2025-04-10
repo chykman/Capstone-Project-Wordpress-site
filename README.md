@@ -379,6 +379,24 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
    ## A FULLY DEPLOYED WORDPRESS SITE
    ![image](https://github.com/user-attachments/assets/81b8298c-a2ad-4e21-9ed2-ac44402256cd)
+  - ![image](https://github.com/user-attachments/assets/a007dfdc-4066-4991-905d-11fd24400350)
+  - ![image](https://github.com/user-attachments/assets/286a31c3-1543-4e27-8448-18e00e1a315f)
+  - ![image](https://github.com/user-attachments/assets/253de3f6-4c8c-4b36-a67d-63586cafdfaa)
+  - ![image](https://github.com/user-attachments/assets/73f33378-f83b-4114-815d-631dd3104273)
+  - ![image](https://github.com/user-attachments/assets/3d2fdd8a-bd2f-4767-8a82-a7de875aa840)
+  - ![image](https://github.com/user-attachments/assets/a6cab4ce-b727-4558-9831-e44d6d76ce74)
+ 
+  ## - THE MOUNTED EFS
+  - ![image](https://github.com/user-attachments/assets/7d6aa667-eaae-4f7b-9114-d3374b5b8389)
+  - ![image](https://github.com/user-attachments/assets/84345377-7266-4be8-b005-b1718bf9a039)
+
+
+
+
+
+
+
+
  
 
 
