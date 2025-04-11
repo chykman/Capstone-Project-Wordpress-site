@@ -391,6 +391,25 @@ The goal of this project is to deploy a **highly available and scalable WordPres
   - ![image](https://github.com/user-attachments/assets/84345377-7266-4be8-b005-b1718bf9a039)
 
 
+    ## - The Network Traffic
+- The servers in the Load balancers
+  ![image](https://github.com/user-attachments/assets/a5e0ac0a-5716-41b6-ba4b-35264344acd1)
+
+- Instances created by my autogroups
+  ![image](https://github.com/user-attachments/assets/73d5df87-db9e-4ffe-aa4d-3b2b56fbcab5)
+
+  - Trafiic being recorded on the three servers
+    ![image](https://github.com/user-attachments/assets/a7dc2c78-5a9b-45d8-8711-f351b1afe23e)
+
+    - Jmeter used to simulate traffic
+      ![image](https://github.com/user-attachments/assets/43b65365-7fce-4202-9ca3-fbe0b2e3b42c)
+
+      - Success response returned
+        ![image](https://github.com/user-attachments/assets/b594200e-e125-4c9d-b7b0-7208db37eba8)
+
+
+
+
 
 
 
