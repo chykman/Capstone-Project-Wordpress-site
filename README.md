@@ -472,3 +472,9 @@ The goal of this project is to deploy a **highly available and scalable WordPres
 
 ---
 
+# Conclusion
+
+This project successfully demonstrates how to deploy a highly available and scalable WordPress website on AWS using best practices. By leveraging services such as VPC, RDS, EFS, Load Balancer, and Auto Scaling Groups, we achieved a secure, resilient, and fault-tolerant architecture ready for production workloads.
+
+---
+
